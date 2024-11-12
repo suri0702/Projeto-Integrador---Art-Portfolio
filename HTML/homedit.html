@@ -7,6 +7,7 @@
     <title>Simony ArtSy</title>
     <link rel="stylesheet" href="styledit.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <script src="/JS/script.js"></script>
 
 </head>
 
@@ -27,8 +28,11 @@
                     <li class="barra-links"><a class="link-web" href="#commissionedwork">Commissioned Work</a></li>
                     <li class="barra-links"><a class="link-web" href="#shop">Shop</a></li>
                     <li class="barra-links"><a class="link-web" href="#contact">Contact</a></li>
-                    <li class="barra-links"> <a class="link-web" href="https://www.etsy.com/shop/ArtSyByElssye?ref=seller-platform-mcnav"><i class="fa-brands fa-etsy"></i></a></li>
-                    <li class="barra-links"><a class="link-web" href="https://www.instagram.com/simonyarte/"><i class="fa-brands fa-instagram"></i></a></li>
+                    <li class="barra-links"> <a class="icon" class="link-web"
+                            href="https://www.etsy.com/shop/ArtSyByElssye?ref=seller-platform-mcnav"><i
+                                class="fa-brands fa-etsy"></i></a></li>
+                    <li class="barra-links"><a class="icon" class="link-web"
+                            href="https://www.instagram.com/simonyarte/"><i class="fa-brands fa-instagram"></i></a></li>
                     <li class="barra-links"><i class="fa-solid fa-cart-shopping"></i></li>
                 </ul>
             </div>
@@ -36,11 +40,11 @@
 
         <div class="navbar-mobile">
             <div class="logo-mobile"> Simony Artsy </div>
-            <button class="toggle-btn" id="bav-toggle-btn">
+            <button class="toggle-btn" id="nav-toggle-btn">
                 <svg viewbox="0 0 12 10" class="hamburger" height="40px" width="40-x">
-                    <path d="M10,2 L2,2"></path>
-                    <path d="M2,5 L10,5"></path>
-                    <path d="M10,8 L2,8"></path>
+                    <path d="M10,2 L2,2" class="bar-1"></path>
+                    <path d="M2,5 L10,5" class="bar-2"></path>
+                    <path d="M10,8 L2,8" class="bar-3"></path>
                 </svg>
             </button>
         </div>
@@ -70,14 +74,42 @@
         </div>
         <div class="social-link-container">
             <ul class="social-links">
-                <li class="sl-container"><a href="https://www.etsy.com/shop/ArtSyByElssye?ref=seller-platform-mcnav">Etsy</a></li>
+                <li class="sl-container"><a
+                        href="https://www.etsy.com/shop/ArtSyByElssye?ref=seller-platform-mcnav">Etsy</a></li>
                 <li class="sl-container"><a href="https://www.instagram.com/simonyarte/">Instagram</a></li>
             </ul>
         </div>
         </div>
     </section>
-    <main></main>
-    <footer></footer>
+
+    <main>
+        <div class="image-wrapper" data-carousel> 
+            <ul data-slides>
+                <li class="slide" data-active>
+                    <img class="slides" src="images/arara.PNG">
+                </li>
+                <li class="slide" >
+                    <img class="slides" src="images/mico-leão.PNG">
+                </li>
+                <li class="slide">
+                    <img class="slides" src="images/tucano.PNG">
+                </li>
+            </ul>
+        </div>
+        <button class="carousel-button prev" data-carousel-button="prev"><i class="fa-solid fa-chevron-left"></i></button>
+        <button class="carousel-button next" data-carousel-button="next"><i class="fa-solid fa-chevron-right"></i></button>
+
+    </main>
+
+    <footer>
+        <ul class="social-links-footer">
+            <a class="icon" class="link-web" href="https://www.etsy.com/shop/ArtSyByElssye?ref=seller-platform-mcnav"><i
+                    class="fa-brands fa-etsy"></i></a>
+            <a class="icon" class="link-web" href="https://www.instagram.com/simonyarte/"><i
+                    class="fa-brands fa-instagram"></i></a>
+            <a class="icon-name" href="#">Simony Artsy©</a>
+        </ul>
+    </footer>
 </body>
 
 </html>
